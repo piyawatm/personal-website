@@ -1,4 +1,4 @@
-# Personal Website - Piyawat Mahathandul
+# Personal Website - Piyawatchara (Ken) Mahathandul
 
 A beautiful, modern personal website showcasing academic and professional achievements, built with vanilla HTML, CSS, and JavaScript.
 
@@ -15,7 +15,7 @@ A beautiful, modern personal website showcasing academic and professional achiev
 
 ### Option 1: Direct Repository Deployment
 
-1. **Create a new repository** on GitHub named `piyawatm.github.io` (replace with your GitHub username)
+1. **Create a new repository** on GitHub named `piyawatm.github.io`
 2. **Upload files** to the repository:
    ```bash
    git init
@@ -81,7 +81,7 @@ Replace the placeholder profile image:
 2. Update the `.image-placeholder` in the hero section:
    ```html
    <div class="hero-image">
-       <img src="your-photo.jpg" alt="Piyawat Mahathandul" class="profile-image">
+       <img src="your-photo.jpg" alt="Piyawatchara Mahathandul" class="profile-image">
    </div>
    ```
 
