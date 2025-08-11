@@ -1,15 +1,16 @@
 # Personal Website - Piyawatchara (Ken) Mahathandul
 
-A beautiful, modern personal website showcasing academic and professional achievements, built with vanilla HTML, CSS, and JavaScript.
+A sleek, monochrome personal website showcasing the journey of a software engineer and graduate student. Features a computer science-inspired design highlighting academic excellence, professional experience, and community-impact projects.
 
 ## 🌟 Features
 
-- **Modern Design**: Clean, professional layout with beautiful animations
-- **Responsive**: Works perfectly on desktop, tablet, and mobile devices
-- **Fast Loading**: Optimized for performance with minimal dependencies
-- **Accessible**: Built with accessibility best practices
-- **SEO Friendly**: Structured for search engine optimization
-- **GitHub Pages Ready**: Configured for easy deployment
+- **Monochrome Theme**: Clean black/white design with computer science aesthetics
+- **Professional Portfolio**: Comprehensive showcase of academic and work achievements
+- **Project Showcase**: Dedicated section for Debatabase-TH, research projects, and educational platforms
+- **Responsive Design**: Optimized for all devices with mobile-first approach
+- **Logo Integration**: Company and institution logos with fallback icons
+- **Fast & Accessible**: Built with performance and accessibility best practices
+- **GitHub Pages Ready**: One-click deployment to `piyawatm.github.io`
 
 ## 🚀 Deployment to GitHub Pages
 
@@ -46,52 +47,106 @@ If you have a custom domain:
 
 ```
 personal-website/
-├── index.html          # Main HTML file
-├── styles.css          # CSS styles and animations
-├── script.js           # JavaScript functionality
-├── README.md           # Documentation
+├── index.html          # Main HTML file with all content sections
+├── styles.css          # Monochrome CSS theme with responsive design
+├── script.js           # Interactive features and scroll effects
+├── README.md           # Project documentation
+├── CNAME              # GitHub Pages domain configuration
+├── LICENSE            # MIT License
 └── .gitignore         # Git ignore file
 ```
 
-## 🎨 Customization
+## 🎯 About Ken Mahattanadul
 
-### Personal Information
+**Software Engineer & Graduate Student** pursuing M.S. in Computer Science at Brown University (2025-2027). Graduate of University of Michigan with B.S.E. in Computer Science, Summa Cum Laude. Passionate about building impactful technology solutions, from fintech infrastructure to community platforms.
 
-Edit the following sections in `index.html`:
+### Key Highlights
+- **🏆 Academic Excellence**: 8-Term Dean's List, James B. Angell Scholar, University Honors
+- **💼 Professional Experience**: Software Engineer at Jobtopgun, Data Engineer at Union Pacific Railroad
+- **🚀 Community Impact**: Co-founder of Debatabase-TH (Thailand's debate platform) and Vaewvakyvadi (educational platform reaching 17K+ users)
+- **📚 Research**: Published author on big data systems with Union Pacific Railroad partnership
 
-1. **Hero Section**: Update name, title, and description
-2. **About Section**: Add your personal bio and skills
-3. **Education Section**: Add your academic history
-4. **Experience Section**: Include work experience
-5. **Achievements Section**: List awards, publications, certifications
-6. **Contact Section**: Update contact information and social links
+## 📋 Website Sections
 
-### Styling
+### 🏠 **Hero Section**
+Clean introduction with terminal-inspired design and call-to-action buttons
 
-Modify `styles.css` to:
-- Change color scheme (update CSS custom properties)
-- Adjust fonts and typography
-- Modify layout and spacing
-- Add new animations
+### 👨‍💻 **About Section** 
+Personal bio highlighting software engineering background and passion for building impactful solutions
 
-### Adding Photos
+### 🎓 **Education Timeline**
+- **Brown University** - M.S. Computer Science (2025-2027)  
+- **University of Michigan** - B.S.E. Computer Science, Summa Cum Laude (2019-2023)
 
-Replace the placeholder profile image:
-1. Add your photo to the project folder
-2. Update the `.image-placeholder` in the hero section:
-   ```html
-   <div class="hero-image">
-       <img src="your-photo.jpg" alt="Piyawatchara Mahathandul" class="profile-image">
-   </div>
-   ```
+### 💼 **Professional Experience**
+- **Jobtopgun** - Software Engineer (Apr 2024-Present)
+- **Union Pacific Railroad** - Software Engineer, Data Analyst (Jul 2023-May 2025)  
+- **Agoda** - Software Engineer Intern (May-Aug 2021)
 
-## 🔧 Technical Details
+### 🚀 **Featured Projects**
+- **[Debatabase-TH](https://debatabase-th.vercel.app/)** - Thailand's comprehensive debate platform
+- **Big Data Backbone** - Research project with Union Pacific Railroad  
+- **[Vaewvakyvadi](https://www.vaewvakyvadi.com)** - Educational platform reaching 17K+ users
 
-- **HTML5**: Semantic markup for better SEO and accessibility
-- **CSS3**: Modern features including Grid, Flexbox, and CSS Custom Properties
-- **JavaScript ES6+**: Modern JavaScript with no external dependencies
-- **Web Standards**: Follows W3C guidelines and best practices
-- **Performance**: Optimized images, minified code, and efficient animations
+### 🏆 **Achievements & Recognition**
+- Awards & Honors (Summa Cum Laude, James B. Angell Scholar, National Debate Champion)
+- Technical Skills (Programming languages, Cloud & Big Data, Languages)  
+- Projects & Academic Excellence (Notable projects + Academic achievements)
+
+### 📞 **Contact Information**
+Social links and professional contact details
+
+## 🎨 Design Features
+
+### **Monochrome Aesthetic**
+- Clean black/white color palette
+- Computer science-inspired typography using Fira Code and JetBrains Mono
+- Minimalist animations and hover effects
+- High contrast for accessibility
+
+### **Logo Integration**  
+- Company logos via Clearbit API with FontAwesome fallbacks
+- Institution logos for education timeline
+- Robust error handling for missing logos
+
+## 🛠️ Customization Guide
+
+### **Theme Customization**
+The monochrome theme can be easily modified in `styles.css`:
+- **Colors**: Update `background`, `color`, and `border` properties
+- **Typography**: Change `font-family` from Fira Code/JetBrains Mono to your preference  
+- **Layout**: Adjust Grid/Flexbox properties for different arrangements
+- **Animations**: Modify `transition` and `transform` effects
+
+### **Content Updates**
+1. **Personal Info**: Update name, bio, and contact details in `index.html`
+2. **Experience**: Add new roles or modify existing ones
+3. **Projects**: Update project descriptions and links
+4. **Achievements**: Add new awards, publications, or skills
+5. **Education**: Modify timeline with your academic history
+
+### **Adding Profile Photo**
+Replace the terminal icon with your photo:
+```html
+<!-- In the hero section, replace: -->
+<div class="image-placeholder">
+    <i class="fas fa-terminal"></i>
+</div>
+
+<!-- With: -->
+<div class="hero-image">
+    <img src="your-photo.jpg" alt="Your Name" class="profile-image">
+</div>
+```
+
+## 🔧 Technical Stack
+
+- **HTML5**: Semantic structure with accessibility best practices
+- **CSS3**: Modern features (Grid, Flexbox, Custom Properties) + Monochrome theme
+- **JavaScript ES6+**: Vanilla JS with smooth scrolling and interactive navigation
+- **External APIs**: Clearbit Logo API for company/institution logos
+- **Typography**: Fira Code & JetBrains Mono for computer science aesthetic
+- **Performance**: Optimized for Core Web Vitals and fast loading
 
 ## 📱 Browser Support
 
@@ -101,30 +156,33 @@ Replace the placeholder profile image:
 - Edge (latest)
 - Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 🛠️ Development
+## 🛠️ Development & Testing
 
-For local development:
+### **Local Development**
+```bash
+# Clone the repository
+git clone https://github.com/piyawatm/piyawatm.github.io.git
+cd piyawatm.github.io
 
-1. **Clone the repository**
-2. **Open `index.html`** in your browser, or
-3. **Use a local server** (recommended):
-   ```bash
-   # Using Python
-   python -m http.server 8000
-   
-   # Using Node.js
-   npx serve .
-   
-   # Using PHP
-   php -S localhost:8000
-   ```
+# Option 1: Open directly in browser
+open index.html
 
-## 📊 Performance
+# Option 2: Use local server (recommended)
+python -m http.server 8000
+# or
+npx serve .
+```
 
-- **Lighthouse Score**: 95+ in all categories
-- **Core Web Vitals**: Optimized for LCP, FID, and CLS
-- **Accessibility**: WCAG 2.1 AA compliant
-- **SEO**: Structured data and meta tags included
+### **Live Preview**
+Visit the live website: **[piyawatm.github.io](https://piyawatm.github.io)**
+
+## 📊 Performance & Quality
+
+- **⚡ Fast Loading**: Optimized CSS/JS with minimal external dependencies
+- **📱 Mobile-First**: Responsive design tested across all device sizes  
+- **♿ Accessible**: High contrast design with semantic HTML structure
+- **🔍 SEO Optimized**: Meta tags, structured data, and semantic markup
+- **🌐 Cross-Browser**: Compatible with all modern browsers
 
 ## 🔄 Updates
 
@@ -139,20 +197,24 @@ To update your website:
    ```
 3. GitHub Pages will automatically deploy the changes
 
-## 📝 Content Guidelines
+## 🎯 Project Highlights
 
-### Writing Tips
+### **🌟 Why This Website Stands Out**
 
-- **Be Concise**: Keep descriptions clear and to the point
-- **Use Action Words**: Start bullet points with strong verbs
-- **Quantify Achievements**: Include numbers and specific results
-- **Stay Current**: Regularly update your accomplishments
+1. **Personal Branding**: Clean, professional presentation that reflects technical expertise
+2. **Comprehensive Portfolio**: Education, experience, projects, and achievements in one place  
+3. **Community Impact**: Showcases leadership in Thailand's debate and educational communities
+4. **Technical Excellence**: Demonstrates full-stack development skills and system design experience
+5. **Academic Achievement**: Highlights research publications and honors program completion
 
-### Image Guidelines
-
-- **Profile Photo**: High-resolution, professional headshot (300x300px minimum)
-- **Format**: Use WebP or JPEG for best compression
-- **Alt Text**: Always include descriptive alt text for accessibility
+### **📈 Visitor Journey**
+- **Landing**: Professional introduction with clear call-to-action
+- **About**: Personal story connecting passion with technical skills  
+- **Education**: Academic credentials at top-tier institutions
+- **Experience**: Professional progression in software engineering
+- **Projects**: Community impact through technology solutions
+- **Achievements**: Recognition and technical competencies
+- **Contact**: Easy connection for opportunities
 
 ## 🤝 Contributing
 
@@ -177,6 +239,18 @@ If you need help with setup or customization:
 
 ---
 
-**Built with ❤️ for the academic and professional community**
+## 🚀 **About the Developer**
 
-*Last updated: December 2024*
+**Piyawatchara (Ken) Mahattanadul** is a software engineer and graduate student passionate about building technology that creates positive community impact. From fintech infrastructure processing millions of transactions to educational platforms reaching thousands of users, Ken combines technical excellence with social responsibility.
+
+**Connect with Ken:**
+- 🌐 **Website**: [piyawatm.github.io](https://piyawatm.github.io)
+- 🔗 **LinkedIn**: [Piyawatchara Mahattanadul](https://linkedin.com/in/piyawatcharamahattanadul)
+- 💻 **GitHub**: [@piyawatm](https://github.com/piyawatm)
+- 📧 **Email**: Available on the website
+
+---
+
+**Built with ❤️ for showcasing technical excellence and community impact**
+
+*Updated: January 2025*
