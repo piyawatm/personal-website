@@ -470,20 +470,31 @@ section {
 .timeline-marker {
     position: absolute;
     top: 20px;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     background: #ffffff;
-    border: 4px solid #000000;
+    border: 3px solid #000000;
     border-radius: 50%;
     z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.institution-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 4px;
 }
 
 .timeline-item:nth-child(odd) .timeline-marker {
-    right: -60px;
+    right: -70px;
 }
 
 .timeline-item:nth-child(even) .timeline-marker {
-    left: -60px;
+    left: -70px;
 }
 
 .timeline-content {
@@ -607,6 +618,18 @@ section {
     color: #000000;
     font-size: 1.5rem;
     flex-shrink: 0;
+    overflow: hidden;
+}
+
+.company-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 8px;
+}
+
+.company-logo.fallback {
+    display: none;
 }
 
 .experience-meta {
@@ -961,7 +984,7 @@ section {
     }
 
     .timeline-marker {
-        left: 11px !important;
+        left: 1px !important;
     }
 
     .timeline-content {
